@@ -1,10 +1,9 @@
 <script>
-import Emit from "./Component/Emit/Parent.vue";
-import VueDirective from "./Component/vueDirectives.vue";
+import Emits from "./components/Emits/Parent.vue";
 export default {
-  component: {
-    Emit,
-    VueDirective,
+  components: {
+    Emits,
+    // VueDirective,
   },
   name: "App",
   data() {
@@ -17,8 +16,8 @@ export default {
 
 <template>
   <div>
-    <Emit />
-    <VueDirective />
+    <Emits />
+    <!-- <VueDirective /> -->
   </div>
 </template>
 
